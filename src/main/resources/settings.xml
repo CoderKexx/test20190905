@@ -19,6 +19,12 @@ specific language governing permissions and limitations
 under the License.
 -->
 
+  <!-- pluginGroups
+   | This is a list of additional group identifiers that will be searched when resolving plugins by their prefix, i.e.
+   | 不知所谓2
+   | "org.apache.maven.plugins" and "org.codehaus.mojo" if these are not already contained in the list.
+   |-->
+
 <!--
  | This is the configuration file for Maven. It can be specified at two levels:
  |
@@ -63,6 +69,11 @@ under the License.
    | Default: true
   <interactiveMode>true</interactiveMode>
   -->
+  <!-- pluginGroups
+   | This is a list of additional group identifiers that will be searched when resolving plugins by their prefix, i.e.
+   | 组织所为1
+   | "org.apache.maven.plugins" and "org.codehaus.mojo" if these are not already contained in the list.
+   |-->
 
   <!-- offline
    | Determines whether maven should attempt to connect to the network when executing a build.
