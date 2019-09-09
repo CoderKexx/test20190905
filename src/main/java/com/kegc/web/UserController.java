@@ -1,12 +1,21 @@
 package com.kegc.web;
 
 public class UserController {
+	int a=1;
 	public static void main(String[] args) {
 		System.out.println("aaa");
 		System.out.println("bbb");
 		System.out.println("ccc");
 	}
-	
+	public void kegc_1() {
+		System.out.println("bbb");
+		System.out.println("ccc");
+		System.out.println("aaa");
+		System.out.println("bbb");
+		System.out.println("ccc");
+		System.out.println("aaa");
+		System.out.println("bbb");
+	}
 	public void fun1() {
 		System.out.println("aaa");
 		System.out.println("bbb");
@@ -43,6 +52,13 @@ public class UserController {
 	public void fun2() {
 		System.out.println("aaa");
 		System.out.println("bbb");
+		System.out.println("ccc");
+		System.out.println("aaa");
+		System.out.println("bbb");
+		System.out.println("ccc");
+	}
+	
+	public void ke2_1() {
 		System.out.println("ccc");
 		System.out.println("aaa");
 		System.out.println("bbb");
@@ -151,5 +167,20 @@ public class UserController {
 		System.out.println("aaa");
 		System.out.println("bbb");
 		System.out.println("ccc");
+	}
+	public void ke2_2() {
+		System.out.println("ccc");
+		System.out.println("aaa");
+		System.out.println("bbb");
+		System.out.println("ccc");
+	}
+	public void kegc_2() {
+		System.out.println("bbb");
+		System.out.println("ccc");
+		System.out.println("aaa");
+		System.out.println("bbb");
+		System.out.println("ccc");
+		System.out.println("aaa");
+		System.out.println("bbb");
 	}
 }
