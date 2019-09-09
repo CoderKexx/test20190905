@@ -48,6 +48,13 @@ public class UserController {
 		System.out.println("bbb");
 		System.out.println("ccc");
 	}
+	
+	public void ke2_1() {
+		System.out.println("ccc");
+		System.out.println("aaa");
+		System.out.println("bbb");
+		System.out.println("ccc");
+	}
 	public void fun3() {
 		System.out.println("aaa");
 		System.out.println("bbb");
@@ -147,6 +154,12 @@ public class UserController {
 		System.out.println("ccc");
 		System.out.println("aaa");
 		System.out.println("bbb");
+		System.out.println("ccc");
+		System.out.println("aaa");
+		System.out.println("bbb");
+		System.out.println("ccc");
+	}
+	public void ke2_2() {
 		System.out.println("ccc");
 		System.out.println("aaa");
 		System.out.println("bbb");
