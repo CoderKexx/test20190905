@@ -24,6 +24,12 @@ under the License.
    | 不知所谓2
    | "org.apache.maven.plugins" and "org.codehaus.mojo" if these are not already contained in the list.
    |-->
+<!-- localRepository
+   | The path to the local repository maven will use to store artifacts.
+   | 第一处修改的地方
+   | Default: ${user.home}/.m2/repository
+  <localRepository>/path/to/local/repo</localRepository>
+  -->
 
 <!--
  | This is the configuration file for Maven. It can be specified at two levels:
@@ -144,6 +150,13 @@ under the License.
     </server>
     -->
   </servers>
+  
+  <!-- localRepository
+   | The path to the local repository maven will use to store artifacts.
+   | 第二处修改的地方
+   | Default: ${user.home}/.m2/repository
+  <localRepository>/path/to/local/repo</localRepository>
+  -->
 
   <!-- mirrors
    | This is a list of mirrors to be used in downloading artifacts from remote repositories.
