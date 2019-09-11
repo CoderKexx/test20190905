@@ -6,4 +6,5 @@ public class Kkk {
 	int c=99;
 	int kkk=1;
 	int kkk2=2;
+	String t="abc";
 }
