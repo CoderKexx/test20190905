@@ -4,4 +4,5 @@ public class Kkk {
 	String a="aa";
 	int k=1;
 	int c=99;
+	int kkk=1;
 }
