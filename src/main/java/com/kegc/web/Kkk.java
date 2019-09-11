@@ -7,4 +7,5 @@ public class Kkk {
 	int kkk=1;
 	int kkk2=2;
 	int hhh=99999;
+	String t="abc";
 }
